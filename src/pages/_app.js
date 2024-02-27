@@ -29,11 +29,11 @@ export default function App({ Component, pageProps }) {
 
 
 
-    if (localStorage.getItem("theme") === "light") {
-      setDark(false)
+    if (localStorage.getItem("theme") === "dark") {
+      setDark(true)
     }
     else {
-      setDark(true)
+      setDark(false)
     }
   }, []);
 
