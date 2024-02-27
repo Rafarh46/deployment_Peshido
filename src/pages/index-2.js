@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import HeaderTwo from '@/components/HeaderTwo'
 import Hero from '@/components/modules/Home-2/Hero'
 import About from '@/components/modules/Home-2/About'
-import Services from '@/components/modules/Home-2/Services'
+
 import Pricing from '@/components/modules/Home-2/Pricing'
 import Roadmap from '@/components/modules/Home-2/Roadmap'
 import Team from '@/components/modules/Home-2/Team'

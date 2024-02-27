@@ -11,7 +11,7 @@ import Newsletter from "@/components/modules/index/Newsletter";
 import Blog from "@/components/modules/index/Blogs";
 import Testimonial from "@/components/modules/index/Testimonials";
 import Services from "@/components/modules/index/Services";
-import Header from "@/components/Header";
+import Header from "@/components/Header"; 
 import Footer from "@/components/Footer";
 export default function Home() {
 
