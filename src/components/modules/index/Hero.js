@@ -35,7 +35,10 @@ const Hero = () => {
                 Welcome to Peshido <span>Where Memes Meet Crypto!</span>
                 </h1>
                 <p className="banner__content-moto">
-                Join us on a journey where three iconic meme communities come together to form a new legend in the world of cryptocurrency - Peshido! Inspired by the spirit of PEPE, Doge, and Shiba Inu, Peshido is more than just a token; it's a symbol of unity, creativity, and the power of community.
+                Join us on a journey where three iconic meme communities come together to form a new
+                 legend in the world of cryptocurrency  Peshido! Inspired by the spirit of PEPE, Doge,
+                  and Shiba Inu, Peshido is more than just a token; its a symbol of unity, creativity, 
+                  and the power of community.
                 </p>
                 <div className="banner__btn-group btn-group">
                   <Link
