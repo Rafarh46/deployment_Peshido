@@ -440,7 +440,10 @@ useEffect(() => {
                     </li>
 
                     <li className="menu-item-has-children">
-                    <li><Link href="Roadmap">Roadmap</Link></li>
+                    <Link href={{
+                          pathname: '/Roadmap',
+                          query: { theme: 'theme' },
+                        }}>Roadmap</Link>
 
                     </li>
                     <li>
