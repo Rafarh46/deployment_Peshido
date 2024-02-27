@@ -44,7 +44,7 @@ export default function App({ Component, pageProps }) {
       <Head>
         <title>
           {
-            "Bitrader - Professional Multipurpose React js, Next.js Template for Your Crypto, Forex, and Stocks Trading Business "
+            "Peshido: Uniting Memes and CryptoBitrader "
           }
         </title>
 

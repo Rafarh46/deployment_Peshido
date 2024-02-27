@@ -19,14 +19,14 @@ export default function Document() {
           name="application-name"
           content="Bitrader - Professional Multipurpose React js, Next.js Template for Your Crypto, Forex, and Stocks Trading Business"
         />
-        <meta name="author" content="thetork" />
+        <meta name="author" content="PESHIDO GOD" />
         <meta
           name="keywords"
           content="Bitrader, Crypto, Forex, and Stocks Trading Business, TheTork, Tork"
         />
         <meta
           name="description"
-          content="Experience the power of Bitrader, the ultimate React js, Next.js template designed to transform your trading business. With its sleek design and advanced features, Bitrader empowers you to showcase your expertise, engage clients, and dominate the markets. Elevate your online presence and unlock new trading possibilities with Bitrader. Designed and Developed By TheTork"
+          content="Welcome to Peshido, where memes meet cryptocurrency! Join us in the ultimate fusion of meme culture and crypto innovation. Explore our vibrant community, discover exclusive tokenomics, and be part of the meme revolution in the world of cryptocurrency. Embrace the power of Peshido and become a part of something legendary"
         />
 
         <meta
