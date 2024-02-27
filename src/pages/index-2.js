@@ -22,7 +22,7 @@ const Home2 = () => {
     <Roadmap/>
     <Team />
     <Testimonials />
-    <Faq />
+   
     <Blogs />
     <Newsletter />
     <Footer />
