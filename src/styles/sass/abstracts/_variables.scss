@@ -137,185 +137,6 @@ $thm-danger-dark: #FF0000;
 
 //===================== Theme varibale for  ** Light ** ===================== //
 :root {
-    --brand-color:#{$thm-brand-color};
-    --secondary-color:#{$thm-secondary-color};
-    --tertiary-color:#{$thm-tertiary-color};
-    --tertiary-color2:#{$thm-tertiary-color2};
-    --tertiary-color3:#{$thm-tertiary-color3};
-    --tertiary-color4:#{$thm-tertiary-color4};
-    --body-color:#{$thm-body-color-light};
-
-
-    --header-bg-color: #0e352a;
-    --header-bg-color2: #093d47;
-
-    --border-color:#{$thm-border-color-light};
-    --border-color-2: #E6EDFB;
-    --border-color-3: #E6EDFB;
-    --border-color-4: #E6EDFB;
-    --border-color-5: #F1F4FB;
-    --border-color-6: #E5F9F3;
-    --border-color-7: #9DB9EE;
-    --border-color-8: rgba(189, 189, 189, 0.2);
-    --border-color-9: rgba(5, 0, 26, 0.12);
-    --border-color-10: rgba(184, 182, 193, 0.12);
-
-    --feature-bg-color: #00150F;
-
-
-
-    --social-border-color:#{$thm-social-border-color-light};
-    --social-border-color-2:#{$thm-social-border-color-2-light};
-    --social-border-color-3:#{$thm-social-border-color-2-light};
-    --form-border:#{$thm-form-border-light};
-
-    // --test-color: blue;
-    // --test-color-trans: rgba(0, 0, 255, 0.205);
-
-    // text colors
-    --title-color:#{$thm-title-color};
-    --title-color-style2:#{$thm-title-color};
-    --text-color:#{$thm-text-color};
-    --text-color-light:#{$thm-text-color-light};
-    --text-color-2: rgba(255, 255, 255, 0.6);
-    --text-color-3: rgba(255, 255, 255, 0.70);
-
-    // background colors
-    --bg-color: #EDF2F8;
-    --bg-color-trans: rgba(237, 242, 248, 0.22);
-
-    --bg-grad-color: #FFF;
-    --bg-grad-color-trans: rgba(255, 255, 255, 0.00);
-
-    --bg-grad-color-2: #D5E5F9;
-    --bg-grad-color-trans-2: rgba(255, 255, 255, 0.22);
-
-    --bg-grad-color-3: #E9EFF7;
-    --bg-grad-color-trans-3: rgba(240, 244, 250, 0.16);
-
-    --bg-grad-color-4: rgba(0, 208, 148, 0.32);
-    --bg-grad-color-trans-4: rgba(229, 237, 248, 0.00);
-
-
-
-    --bg-color-2:#{$thm-bg-color-2-light};
-    --bg-color-3:#{$thm-bg-color-3-light};
-    --bg-color-4:#{$thm-bg-color-4-light};
-    --bg-color-5:#{$thm-bg-color-4-light};
-    --bg-color-6:#{$thm-bg-color-6-light};
-    --bg-color-7:#{$thm-bg-color-7-light};
-    --bg-color-8:#{$thm-bg-color-8-light};
-    --bg-color-9:#{$thm-bg-color-9-light};
-    --bg-color-10:#E5FFAD;
-    --bg-color-11:#141821;
-    --bg-color-12:#141821;
-    --bg-color-13:#E5FFAD;
-    --bg-color-14:#FFF6E0;
-    --bg-color-15: rgba(43, 40, 40, 0.15);
-    --bg-color-16: #E5FFAD;
-    --bg-color-17: rgb(220, 53, 69);
-
-
-    --bg-white:#{$thm-bg-white-light};
-    --bg-team:#{$thm-bg-team-light};
-
-    // form colors
-    --form-focus-color:#{$thm-form-focus-light};
-
-    // others colors
-    --wh-color:#{$thm-wh-color};
-    --black-color:#{$thm-black-color};
-
-    --floating-content-border-color: rgba(0, 0, 0, 0.02);
-    --floating-content-bg-color: rgba(255, 255, 255, 0.90);
-    --floating-content-bg-color-2: rgba(255, 255, 255, 0.50);
-
-    --service-item-border-color: #fff;
-    --service-item-bg-color: #fff;
-    --faq-item-btn-border-color: #03314b12;
-    --faq-bg-color: #fff;
-    --extra-bg-color: #fff;
-
-
-    --tag-bg-color: #EDFFFA;
-
-
-
-
-
-
-    // shape colors
-    --bg-shape-color: #B8CFEB;
-    --bg-shape-color-trans: rgba(255, 255, 255, 0.22);
-
-    --bg-shape-color-2: #D5E5F9;
-    --bg-shape-color-trans-2: rgba(255, 255, 255, 0.22);
-
-
-    --footer-bg-color: #00150F;
-    --faq-img-bg-shadow: #16d466;
-    --pagination-bg-color: #E0FAF2;
-
-
-    --section-bg-color: #f8f8f8;
-    --sec-bg-color-2: #fff;
-
-    --account-bg-color: #F5F7FC;
-    --account-bg-color2: #FFF;
-
-    // arrow color
-    --arrow-color1: #B5CAF2;
-    --arrow-icon-color: #0A4FD5;
-    --header-border-color: #EBE9E1;
-    --header-border-color2: rgba(255, 255, 255, 0.12);
-    --banner2-bg-color: #0e241d;
-    --about-img-bg-shadow: #85F2D382;
-    --cta-img-bg-shadow: #45554b;
-
-    // action colors
-    --error-color:#{$thm-error-light};
-    --warning-color:#{$thm-warning-light};
-    --success-color:#{$thm-success-light};
-    --danger-color:#{$thm-danger-light};
-
-
-
-        .accordion-button:after {
-            --bs-accordion-btn-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"> <style>svg{fill:%23000000}</style><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg>');
-            --bs-accordion-btn-active-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"> <style>svg{fill:%2300D094}</style><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>');
-        }
-    
-        .accordion-button--style2:after {
-            --bs-accordion-btn-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"> <style>svg{fill:%23000000}</style><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg>');
-            --bs-accordion-btn-active-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"> <style>svg{fill:%23000}</style><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>');
-        }
-    
-        .accordion-button--style3:after {
-            --bs-accordion-btn-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"> <style>svg{fill:%23000000}</style><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg>');
-            --bs-accordion-btn-active-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"> <style>svg{fill:%230A4FD5}</style><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>');
-        }
-}
-
-
-//===================== Theme varibale for  ** Dark ** ===================== //
-[data-bs-theme="dark"] {
-
-    .accordion-button:after {
-            --bs-accordion-btn-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"> <style>svg{fill:%23ffffff}</style><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg>');
-            --bs-accordion-btn-active-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"> <style>svg{fill:%2300D094}</style><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>');
-        }
-    
-        .accordion-button--style2:after {
-            --bs-accordion-btn-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"> <style>svg{fill:%23ffffff}</style><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg>');
-            --bs-accordion-btn-active-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"> <style>svg{fill:%23000}</style><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>');
-        }
-    
-        .accordion-button--style3:after {
-            --bs-accordion-btn-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"> <style>svg{fill:%23ffffff}</style><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg>');
-            --bs-accordion-btn-active-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"> <style>svg{fill:%2300D094}</style><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>');
-        }
-
-
 
     --brand-color:#{$thm-brand-color-dark};
     --secondary-color:#{$thm-secondary-color-dark};
@@ -456,7 +277,188 @@ $thm-danger-dark: #FF0000;
     --danger-color:#{$thm-danger-dark};
 }
 
+    
 
+        .accordion-button:after {
+            --bs-accordion-btn-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"> <style>svg{fill:%23000000}</style><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg>');
+            --bs-accordion-btn-active-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"> <style>svg{fill:%2300D094}</style><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>');
+        }
+    
+        .accordion-button--style2:after {
+            --bs-accordion-btn-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"> <style>svg{fill:%23000000}</style><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg>');
+            --bs-accordion-btn-active-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"> <style>svg{fill:%23000}</style><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>');
+        }
+    
+        .accordion-button--style3:after {
+            --bs-accordion-btn-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"> <style>svg{fill:%23000000}</style><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg>');
+            --bs-accordion-btn-active-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"> <style>svg{fill:%230A4FD5}</style><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>');
+        }
+
+
+
+//===================== Theme varibale for  ** Dark ** ===================== //
+[data-bs-theme="light"] {
+
+    .accordion-button:after {
+            --bs-accordion-btn-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"> <style>svg{fill:%23ffffff}</style><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg>');
+            --bs-accordion-btn-active-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"> <style>svg{fill:%2300D094}</style><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>');
+        }
+    
+        .accordion-button--style2:after {
+            --bs-accordion-btn-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"> <style>svg{fill:%23ffffff}</style><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg>');
+            --bs-accordion-btn-active-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"> <style>svg{fill:%23000}</style><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>');
+        }
+    
+        .accordion-button--style3:after {
+            --bs-accordion-btn-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"> <style>svg{fill:%23ffffff}</style><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg>');
+            --bs-accordion-btn-active-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"> <style>svg{fill:%2300D094}</style><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>');
+        }
+
+
+
+        --brand-color:#{$thm-brand-color};
+        --secondary-color:#{$thm-secondary-color};
+        --tertiary-color:#{$thm-tertiary-color};
+        --tertiary-color2:#{$thm-tertiary-color2};
+        --tertiary-color3:#{$thm-tertiary-color3};
+        --tertiary-color4:#{$thm-tertiary-color4};
+        --body-color:#{$thm-body-color-light};
+    
+    
+        --header-bg-color: #0e352a;
+        --header-bg-color2: #093d47;
+    
+        --border-color:#{$thm-border-color-light};
+        --border-color-2: #E6EDFB;
+        --border-color-3: #E6EDFB;
+        --border-color-4: #E6EDFB;
+        --border-color-5: #F1F4FB;
+        --border-color-6: #E5F9F3;
+        --border-color-7: #9DB9EE;
+        --border-color-8: rgba(189, 189, 189, 0.2);
+        --border-color-9: rgba(5, 0, 26, 0.12);
+        --border-color-10: rgba(184, 182, 193, 0.12);
+    
+        --feature-bg-color: #00150F;
+    
+    
+    
+        --social-border-color:#{$thm-social-border-color-light};
+        --social-border-color-2:#{$thm-social-border-color-2-light};
+        --social-border-color-3:#{$thm-social-border-color-2-light};
+        --form-border:#{$thm-form-border-light};
+    
+        // --test-color: blue;
+        // --test-color-trans: rgba(0, 0, 255, 0.205);
+    
+        // text colors
+        --title-color:#{$thm-title-color};
+        --title-color-style2:#{$thm-title-color};
+        --text-color:#{$thm-text-color};
+        --text-color-light:#{$thm-text-color-light};
+        --text-color-2: rgba(255, 255, 255, 0.6);
+        --text-color-3: rgba(255, 255, 255, 0.70);
+    
+        // background colors
+        --bg-color: #EDF2F8;
+        --bg-color-trans: rgba(237, 242, 248, 0.22);
+    
+        --bg-grad-color: #FFF;
+        --bg-grad-color-trans: rgba(255, 255, 255, 0.00);
+    
+        --bg-grad-color-2: #D5E5F9;
+        --bg-grad-color-trans-2: rgba(255, 255, 255, 0.22);
+    
+        --bg-grad-color-3: #E9EFF7;
+        --bg-grad-color-trans-3: rgba(240, 244, 250, 0.16);
+    
+        --bg-grad-color-4: rgba(0, 208, 148, 0.32);
+        --bg-grad-color-trans-4: rgba(229, 237, 248, 0.00);
+    
+    
+    
+        --bg-color-2:#{$thm-bg-color-2-light};
+        --bg-color-3:#{$thm-bg-color-3-light};
+        --bg-color-4:#{$thm-bg-color-4-light};
+        --bg-color-5:#{$thm-bg-color-4-light};
+        --bg-color-6:#{$thm-bg-color-6-light};
+        --bg-color-7:#{$thm-bg-color-7-light};
+        --bg-color-8:#{$thm-bg-color-8-light};
+        --bg-color-9:#{$thm-bg-color-9-light};
+        --bg-color-10:#E5FFAD;
+        --bg-color-11:#141821;
+        --bg-color-12:#141821;
+        --bg-color-13:#E5FFAD;
+        --bg-color-14:#FFF6E0;
+        --bg-color-15: rgba(43, 40, 40, 0.15);
+        --bg-color-16: #E5FFAD;
+        --bg-color-17: rgb(220, 53, 69);
+    
+    
+        --bg-white:#{$thm-bg-white-light};
+        --bg-team:#{$thm-bg-team-light};
+    
+        // form colors
+        --form-focus-color:#{$thm-form-focus-light};
+    
+        // others colors
+        --wh-color:#{$thm-wh-color};
+        --black-color:#{$thm-black-color};
+    
+        --floating-content-border-color: rgba(0, 0, 0, 0.02);
+        --floating-content-bg-color: rgba(255, 255, 255, 0.90);
+        --floating-content-bg-color-2: rgba(255, 255, 255, 0.50);
+    
+        --service-item-border-color: #fff;
+        --service-item-bg-color: #fff;
+        --faq-item-btn-border-color: #03314b12;
+        --faq-bg-color: #fff;
+        --extra-bg-color: #fff;
+    
+    
+        --tag-bg-color: #EDFFFA;
+    
+    
+    
+    
+    
+    
+        // shape colors
+        --bg-shape-color: #B8CFEB;
+        --bg-shape-color-trans: rgba(255, 255, 255, 0.22);
+    
+        --bg-shape-color-2: #D5E5F9;
+        --bg-shape-color-trans-2: rgba(255, 255, 255, 0.22);
+    
+    
+        --footer-bg-color: #00150F;
+        --faq-img-bg-shadow: #16d466;
+        --pagination-bg-color: #E0FAF2;
+    
+    
+        --section-bg-color: #f8f8f8;
+        --sec-bg-color-2: #fff;
+    
+        --account-bg-color: #F5F7FC;
+        --account-bg-color2: #FFF;
+    
+        // arrow color
+        --arrow-color1: #B5CAF2;
+        --arrow-icon-color: #0A4FD5;
+        --header-border-color: #EBE9E1;
+        --header-border-color2: rgba(255, 255, 255, 0.12);
+        --banner2-bg-color: #0e241d;
+        --about-img-bg-shadow: #85F2D382;
+        --cta-img-bg-shadow: #45554b;
+    
+        // action colors
+        --error-color:#{$thm-error-light};
+        --warning-color:#{$thm-warning-light};
+        --success-color:#{$thm-success-light};
+        --danger-color:#{$thm-danger-light};
+    
+    
+    }
 
 //*-----------------------------------
 //*** Custom variables for theme end

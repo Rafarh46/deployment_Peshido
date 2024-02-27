@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }) {
 
 
   const [dark, setDark] = useState(false);
-  
+
 
   //........... animation.....
   useEffect(() => {
