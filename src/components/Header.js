@@ -89,8 +89,12 @@ function switchThemeByUrl() {
 
 useEffect(() => {
   switchThemeByUrl();
-  const theme = localStorage.getItem('theme');
-  updateThemeColor(localStorage.getItem('theme'))
+    const theme = localStorage.getItem('theme');
+    if (!theme) {
+      updateThemeColor('dark'); // Establecer tema oscuro como predeterminado
+    } else {
+      updateThemeColor(theme);
+    }
 
   
 }, [router.query.theme, updateThemeColor]);
