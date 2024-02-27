@@ -8,7 +8,7 @@ function Header({headerClass=null}) {
   const router = useRouter()
   const [scrollTop, setScrollTop] = useState(0);
   
-  const changeImage = useCallback((themeMode = 'light')=> {
+  const changeImage = useCallback((themeMode = 'dark')=> {
 
     const icon = document.querySelector('#btnSwitch img');
   
