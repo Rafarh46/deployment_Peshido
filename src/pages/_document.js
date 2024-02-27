@@ -5,7 +5,7 @@ import { useEffect } from "react";
 export default function Document() {
   let theme = "light";
   useEffect(() => {
-    theme = localStorage.getItem("theme") ? localStorage.getItem("theme") : "light";
+    theme = localStorage.getItem("theme") ? localStorage.getItem("theme") : "dark";
 
   }, [theme]);
   return (

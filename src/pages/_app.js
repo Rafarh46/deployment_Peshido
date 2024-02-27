@@ -14,7 +14,7 @@ export default function App({ Component, pageProps }) {
   const [loading, setLoading] = useState(true);
 
 
-  const [dark, setDark] = useState(true);
+  const [dark, setDark] = useState(false);
 
 
   //........... animation.....
