@@ -15,7 +15,7 @@ const featureData = [
   },
   {
     Benefit: "Private Sale",
-    rating: "images/feature/p55.png",
+    rating: "images/feature/p10.png",
     availableForLoan: 100,
     img: "/images/feature/shoes.png",
   },
@@ -98,7 +98,7 @@ function Featured() {
                             >
                               <div className="floating-content__item floating-content__item--style2 text-center">
                                 <img src={item.rating} alt="rating" />
-                                <p className="style2">Interest Rate For Loan</p>
+                                <p className="style2">percent</p>
                               </div>
                             </div>
                             <div
