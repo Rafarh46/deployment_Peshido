@@ -8,7 +8,7 @@ function Header({headerClass=null}) {
   const router = useRouter()
   const [scrollTop, setScrollTop] = useState(0);
   
-  const changeImage = useCallback((themeMode = 'light')=> {
+  const changeImage = useCallback((themeMode = 'dark')=> {
 
     const icon = document.querySelector('#btnSwitch img');
   
@@ -184,7 +184,7 @@ useEffect(() => {
             <div className="header-wrapper">
               <div className="logo">
                 <Link href="/">
-                  <img className="light" src="/images/logo/logo.png" alt="logo" />
+                  <img className="dark" src="/images/logo/logo.png" alt="logo" />
                 </Link>
               </div>
               <div className="menu-area">
@@ -205,7 +205,7 @@ useEffect(() => {
 
                                   <Link href={{
                                       pathname: '/',
-                                      query: { theme: "dark" },
+                                      query: { theme: "light" },
                                     }}
                                     className="trk-btn trk-btn--primary home-showcase__buttons-item mt-3"><span>Preview</span></Link>
                                 </div>
@@ -213,7 +213,7 @@ useEffect(() => {
                               <h3 className="home-showcase__title">
                                 <Link href={{
                                 pathname: '/',
-                                query: { theme: "dark" },
+                                query: { theme: "light" },
                               }}>Stock Trading</Link>
                               </h3>
                             </div>
@@ -226,14 +226,14 @@ useEffect(() => {
 
                                 <Link href={{
                                 pathname: '/',
-                                query: { theme: "light" },
+                                query: { theme: "dark" },
                               }}
                                     className="trk-btn trk-btn--primary home-showcase__buttons-item mt-3"><span>Preview</span></Link>
                                 </div>
                               </div>
                               <h3 className="home-showcase__title"><Link href={{
                                 pathname: '/',
-                                query: { theme: "light" },
+                                query: { theme: "dark" },
                               }}>Stock Trading Dark</Link>
                               </h3>
                             </div>
@@ -245,14 +245,14 @@ useEffect(() => {
                                 <div className="home-showcase__buttons">
                                   <Link href={{
                           pathname: '/index-2',
-                          query: { theme: "dark" },
+                          query: { theme: "light" },
                         }}
                                     className="trk-btn trk-btn--primary home-showcase__buttons-item mt-3"><span>Preview</span></Link>
                                 </div>
                               </div>
                               <h3 className="home-showcase__title"> <Link href={{
                           pathname: '/index-2',
-                          query: { theme: "dark" },
+                          query: { theme: "light" },
                         }}>Crypto Trading</Link>
                               </h3>
                             </div>
@@ -264,14 +264,14 @@ useEffect(() => {
                                 <div className="home-showcase__buttons">
                                   <Link href={{
                           pathname: '/index-2',
-                          query: { theme: "light" },
+                          query: { theme: "dark" },
                         }}
                                     className="trk-btn trk-btn--primary home-showcase__buttons-item mt-3"><span>Preview</span></Link>
                                 </div>
                               </div>
                               <h3 className="home-showcase__title"> <Link href={{
                           pathname: '/index-2',
-                          query: { theme: "light" },
+                          query: { theme: "dark" },
                         }}>Crypto Trading Dark</Link>
                               </h3>
                             </div>
@@ -283,14 +283,14 @@ useEffect(() => {
                                 <div className="home-showcase__buttons">
                                   <Link href={{
                           pathname: '/index-3',
-                          query: { theme: "dark" },
+                          query: { theme: "light" },
                         }}
                                     className="trk-btn trk-btn--primary home-showcase__buttons-item mt-3"><span>Preview</span></Link>
                                 </div>
                               </div>
                               <h3 className="home-showcase__title"><Link href={{
                           pathname: '/index-3',
-                          query: { theme: "dark" },
+                          query: { theme: "light" },
                         }}>Forex Trading</Link>
                               </h3>
                             </div>
@@ -302,14 +302,14 @@ useEffect(() => {
                                 <div className="home-showcase__buttons">
                                   <Link href={{
                           pathname: '/index-3',
-                          query: { theme: "light" },
+                          query: { theme: "dark" },
                         }}
                                     className="trk-btn trk-btn--primary home-showcase__buttons-item mt-3"><span>Preview</span></Link>
                                 </div>
                               </div>
                               <h3 className="home-showcase__title"><Link href={{
                           pathname: '/index-3',
-                          query: { theme: "light" },
+                          query: { theme: "dark" },
                         }}>Forex Trading Dark</Link>
                               </h3>
                             </div>
