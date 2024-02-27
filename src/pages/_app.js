@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }) {
 
 
   const [dark, setDark] = useState(false);
-
+  setDark(true)
 
   //........... animation.....
   useEffect(() => {
@@ -25,7 +25,7 @@ export default function App({ Component, pageProps }) {
     setTimeout(() => {
       setLoading(false);
 
-    }, 1500);
+    }, 3000);
 
 
 
