@@ -88,6 +88,7 @@ function switchThemeByUrl() {
 // =================== light and dark end ================== //
 
 useEffect(() => {
+  
   switchThemeByUrl();
     const theme = localStorage.getItem('theme');
     if (!theme) {
@@ -194,25 +195,258 @@ useEffect(() => {
               <div className="menu-area">
                   <ul id="menu" className={ `menu menu--style1 ${menu ? 'active' : ''}`}>
                     <li className="megamenu menu-item-has-children">
-                    <li>
-                    <Link href="Hero">Home</Link>
-                    </li>  
+                      <Link scroll={false} href="/#0" onClick={toggleActive}>Demos </Link>
+
                       
+                  <ul className="submenu">
                     <li>
-                    <Link href="About">About us</Link>
-                    </li>  
-                    <li>
-                    <Link href="Features">Tokenomics</Link>
-                    </li>          
-                    <li>
-                    <Link href="Roadmap">Roadmap</Link>
-                      
+                      <div className="home-showcase">
+                        <div className="row g-4 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+                          <div className="col order-first">
+                            <div className="home-showcase__item">
+                              <div className="home-showcase__image">
+                                <img src="images/demo/1.png" alt="home-showcase" />
+                                <div className="home-showcase__buttons">
+
+                                  <Link href={{
+                                      pathname: '/',
+                                      query: { theme: "light" },
+                                    }}
+                                    className="trk-btn trk-btn--primary home-showcase__buttons-item mt-3"><span>Preview</span></Link>
+                                </div>
+                              </div>
+                              <h3 className="home-showcase__title">
+                                <Link href={{
+                                pathname: '/',
+                                query: { theme: "light" },
+                              }}>Stock Trading</Link>
+                              </h3>
+                            </div>
+                          </div>
+                          <div className="col">
+                            <div className="home-showcase__item">
+                              <div className="home-showcase__image">
+                                  <img src="images/demo/1-dark.png" alt="home-showcase" />
+                                <div className="home-showcase__buttons">
+
+                                <Link href={{
+                                pathname: '/',
+                                query: { theme: "dark" },
+                              }}
+                                    className="trk-btn trk-btn--primary home-showcase__buttons-item mt-3"><span>Preview</span></Link>
+                                </div>
+                              </div>
+                              <h3 className="home-showcase__title"><Link href={{
+                                pathname: '/',
+                                query: { theme: "dark" },
+                              }}>Stock Trading Dark</Link>
+                              </h3>
+                            </div>
+                          </div>
+                          <div className="col">
+                            <div className="home-showcase__item">
+                              <div className="home-showcase__image">
+                                <img src="images/demo/2.png" alt="home-showcase" />
+                                <div className="home-showcase__buttons">
+                                  <Link href={{
+                          pathname: '/index-2',
+                          query: { theme: "light" },
+                        }}
+                                    className="trk-btn trk-btn--primary home-showcase__buttons-item mt-3"><span>Preview</span></Link>
+                                </div>
+                              </div>
+                              <h3 className="home-showcase__title"> <Link href={{
+                          pathname: '/index-2',
+                          query: { theme: "light" },
+                        }}>Crypto Trading</Link>
+                              </h3>
+                            </div>
+                          </div>
+                          <div className="col">
+                            <div className="home-showcase__item">
+                              <div className="home-showcase__image">
+                                  <img src="images/demo/2-dark.png" alt="home-showcase" />
+                                <div className="home-showcase__buttons">
+                                  <Link href={{
+                          pathname: '/index-2',
+                          query: { theme: "dark" },
+                        }}
+                                    className="trk-btn trk-btn--primary home-showcase__buttons-item mt-3"><span>Preview</span></Link>
+                                </div>
+                              </div>
+                              <h3 className="home-showcase__title"> <Link href={{
+                          pathname: '/index-2',
+                          query: { theme: "dark" },
+                        }}>Crypto Trading Dark</Link>
+                              </h3>
+                            </div>
+                          </div>
+                          <div className="col">
+                            <div className="home-showcase__item">
+                              <div className="home-showcase__image">
+                                <img src="images/demo/3.png" alt="home-showcase" />
+                                <div className="home-showcase__buttons">
+                                  <Link href={{
+                          pathname: '/index-3',
+                          query: { theme: "light" },
+                        }}
+                                    className="trk-btn trk-btn--primary home-showcase__buttons-item mt-3"><span>Preview</span></Link>
+                                </div>
+                              </div>
+                              <h3 className="home-showcase__title"><Link href={{
+                          pathname: '/index-3',
+                          query: { theme: "light" },
+                        }}>Forex Trading</Link>
+                              </h3>
+                            </div>
+                          </div>
+                          <div className="col">
+                            <div className="home-showcase__item">
+                              <div className="home-showcase__image">
+                                  <img src="images/demo/3-dark.png" alt="home-showcase" />
+                                <div className="home-showcase__buttons">
+                                  <Link href={{
+                          pathname: '/index-3',
+                          query: { theme: "dark" },
+                        }}
+                                    className="trk-btn trk-btn--primary home-showcase__buttons-item mt-3"><span>Preview</span></Link>
+                                </div>
+                              </div>
+                              <h3 className="home-showcase__title"><Link href={{
+                          pathname: '/index-3',
+                          query: { theme: "dark" },
+                        }}>Forex Trading Dark</Link>
+                              </h3>
+                            </div>
+                          </div>
+                          {/* <div className="col">
+                            <div className="home-showcase__item">
+                              <div className="home-showcase__image">
+                                <img src="images/demo/4.png" alt="home-showcase" />
+                                <div className="home-showcase__badge">
+                                  <span>New</span>
+                                </div>
+                                <div className="home-showcase__buttons">
+                                  <Link href={{
+                          pathname: '/index-4',
+                          query: { theme: "light" },
+                        }}
+                                    className="trk-btn trk-btn--primary home-showcase__buttons-item mt-3"><span>Preview</span></Link>
+                                </div>
+                              </div>
+                              <h3 className="home-showcase__title"><Link href={{
+                          pathname: '/index-4',
+                          query: { theme: "light" },
+                        }}>Day Trading</Link>
+                              </h3>
+                            </div>
+                          </div>
+                          <div className="col">
+                            <div className="home-showcase__item">
+                              <div className="home-showcase__image">
+                                <img src="images/demo/9.png" alt="home-showcase" />
+                                <div className="home-showcase__badge">
+                                  <span>New</span>
+                                </div>
+                                <div className="home-showcase__buttons">
+                                  <Link href={{
+                          pathname: '/index-4',
+                          query: { theme: "dark" },
+                        }}
+                                    className="trk-btn trk-btn--primary home-showcase__buttons-item mt-3"><span>Preview</span></Link>
+                                </div>
+                              </div>
+                              <h3 className="home-showcase__title"><Link href={{
+                          pathname: '/index-4',
+                          query: { theme: "dark" },
+                        }}>Day Trading Dark</Link>
+                              </h3>
+                            </div>
+                          </div>
+                          <div className="col">
+                            <div className="home-showcase__item">
+                              <div className="home-showcase__image">
+                                <img src="images/demo/5.png" alt="home-showcase" />
+                                <div className="home-showcase__badge">
+                                  <span>New</span>
+                                </div>
+                                <div className="home-showcase__buttons">
+                                  <Link href={{
+                          pathname: '/index-5',
+                          query: { theme: "light" },
+                        }}
+                                    className="trk-btn trk-btn--primary home-showcase__buttons-item mt-3"><span>Preview</span></Link>
+                                </div>
+                              </div>
+                              <h3 className="home-showcase__title"><Link href={{
+                          pathname: '/index-5',
+                          query: { theme: "light" },
+                        }}>Trading Platform</Link>
+                              </h3>
+                            </div>
+                          </div>
+                          <div className="col">
+                            <div className="home-showcase__item">
+                              <div className="home-showcase__image">
+                                <img src="images/demo/10.png" alt="home-showcase" />
+                                <div className="home-showcase__badge">
+                                  <span>New</span>
+                                </div>
+                                <div className="home-showcase__buttons">
+                                  <Link href={{
+                          pathname: '/index-5',
+                          query: { theme: "dark" },
+                        }}
+                                    className="trk-btn trk-btn--primary home-showcase__buttons-item mt-3"><span>Preview</span></Link>
+                                </div>
+                              </div>
+                              <h3 className="home-showcase__title"><Link href={{
+                          pathname: '/index-5',
+                          query: { theme: "dark" },
+                        }}>Trading Platform Dark</Link>
+                              </h3>
+                            </div>
+                          </div> */}
+                          <div className="col order-last">
+                            <div className="home-showcase__item">
+                              <div className="home-showcase__image">
+                                <img src="images/demo/new.png" alt="home-showcase" />
+                              </div>
+                              <h3 className="home-showcase__title"> <Link scroll={false} href="/#0">New Demos</Link>
+                              </h3>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+                    <li className="menu-item-has-children">
+                      <Link href="/services" onClick={toggleActive}>Services</Link>
+                      <ul className="submenu">
+                        <li><Link href="/services">Services</Link></li>
+                        <li><Link href="/service-details">Services Details</Link></li>
+                      </ul>
+                    </li>
+                    <li className="menu-item-has-children">
+                      <Link scroll={false} href="/#0" onClick={toggleActive}>About</Link>
+                      <ul className="submenu">
+                        <li><Link href="/about">About Us</Link></li>
+                        <li><Link href="/price">Price</Link></li>
+                        <li><Link href="/team">Team</Link></li>
+                        <li><Link href="/team-2">Team 2</Link></li>
+                        <li><Link href="/team-details">Team Details</Link></li>
+                      </ul>
+                    </li>
+
+                    <li className="menu-item-has-children">
+                    <li><Link href="Roadmap">Roadmap</Link></li>
+
                     </li>
                     <li>
                       <Link href="contact">Contact Us</Link>
                     </li>
-                    </li>
-                    </ul>
+                  </ul>
                   </div>
                   <div className="header-action">
                 <div className="menu-area">
