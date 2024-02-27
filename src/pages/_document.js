@@ -3,9 +3,9 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 import { useEffect } from "react";
 export default function Document() {
-  let theme = "dark";
+  let theme = "light";
   useEffect(() => {
-    theme = localStorage.getItem("theme") ? localStorage.getItem("theme") : "dark";
+    theme = localStorage.getItem("theme") ? localStorage.getItem("theme") : "light";
 
   }, [theme]);
   return (
