@@ -205,7 +205,7 @@ useEffect(() => {
 
                                   <Link href={{
                                       pathname: '/',
-                                      query: { theme: "light" },
+                                      query: { theme: "dark" },
                                     }}
                                     className="trk-btn trk-btn--primary home-showcase__buttons-item mt-3"><span>Preview</span></Link>
                                 </div>
@@ -213,7 +213,7 @@ useEffect(() => {
                               <h3 className="home-showcase__title">
                                 <Link href={{
                                 pathname: '/',
-                                query: { theme: "light" },
+                                query: { theme: "dark" },
                               }}>Stock Trading</Link>
                               </h3>
                             </div>
@@ -245,14 +245,14 @@ useEffect(() => {
                                 <div className="home-showcase__buttons">
                                   <Link href={{
                           pathname: '/index-2',
-                          query: { theme: "light" },
+                          query: { theme: "dark" },
                         }}
                                     className="trk-btn trk-btn--primary home-showcase__buttons-item mt-3"><span>Preview</span></Link>
                                 </div>
                               </div>
                               <h3 className="home-showcase__title"> <Link href={{
                           pathname: '/index-2',
-                          query: { theme: "light" },
+                          query: { theme: "dark" },
                         }}>Crypto Trading</Link>
                               </h3>
                             </div>
@@ -283,14 +283,14 @@ useEffect(() => {
                                 <div className="home-showcase__buttons">
                                   <Link href={{
                           pathname: '/index-3',
-                          query: { theme: "light" },
+                          query: { theme: "dark" },
                         }}
                                     className="trk-btn trk-btn--primary home-showcase__buttons-item mt-3"><span>Preview</span></Link>
                                 </div>
                               </div>
                               <h3 className="home-showcase__title"><Link href={{
                           pathname: '/index-3',
-                          query: { theme: "light" },
+                          query: { theme: "dark" },
                         }}>Forex Trading</Link>
                               </h3>
                             </div>
