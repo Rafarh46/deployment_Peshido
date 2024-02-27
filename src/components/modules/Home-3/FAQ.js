@@ -7,32 +7,32 @@ const faqdata = [
   {
     question: "What does this tool do?",
     answer:
-      "Online trading’s primary advantages are that it allows you to manage your trades at your convenience.",
+      "Online trading s primary advantages are that it allows you to manage your trades at your convenience.",
   },
   {
     question: "What are the disadvantages of online trading?",
     answer:
-      "You don’t need to worry, the interface is user-friendly. Anyone can use it smoothly. Our user manual will help you to solve your problem.",
+      "You don t need to worry, the interface is user-friendly. Anyone can use it smoothly. Our user manual will help you to solve your problem.",
   },
   {
     question: "Is online trading safe?",
     answer:
-      "Online trading’s primary advantages are that it allows you to manage your trades at your convenience.",
+      "Online trading s primary advantages are that it allows you to manage your trades at your convenience.",
   },
   {
     question: "What is online trading, and how does it work?",
     answer:
-      "Online trading’s primary advantages are that it allows you to manage your trades at your convenience.",
+      "Online trading's primary advantages are that it allows you to manage your trades at your convenience.",
   },
   {
     question: "Which app is best for online trading?",
     answer:
-      "Online trading’s primary advantages are that it allows you to manage your trades at your convenience.",
+      "Online trading s primary advantages are that it allows you to manage your trades at your convenience.",
   },
   {
     question: "How to create a trading account?",
     answer:
-      "Online trading’s primary advantages are that it allows you to manage your trades at your convenience.",
+      "Online trading s primary advantages are that it allows you to manage your trades at your convenience.",
   },
 ];
 
@@ -44,7 +44,7 @@ const Faq3 = () => {
           <span>Frequently</span> Asked questions
         </h2>
         <p>
-          Hey there! Got questions? We've got answers. Check out our FAQ page
+          Hey there! Got questions? We ve got answers. Check out our FAQ page
           for all the deets. Still not satisfied? Hit us up.
         </p>
       </div>
