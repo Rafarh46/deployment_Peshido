@@ -7,7 +7,16 @@ function Header({headerClass=null}) {
   const [show, setShow] = useState(false);
   const router = useRouter()
   const [scrollTop, setScrollTop] = useState(0);
-  
+
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      window.scrollTo({
+        top: section.offsetTop,
+        behavior: "smooth",
+      });
+    }
+  }
   const changeImage = useCallback((themeMode = 'dark')=> {
 
     const icon = document.querySelector('#btnSwitch img');
@@ -195,19 +204,19 @@ useEffect(() => {
             <div className="menu-area">
               <ul id="menu" className="menu menu--style1">
                 <li>
-                  <button onClick={() => scrollToSection("home")}>Home</button>
+                  <button onClick={() => scrollToSection("hero")}>Home</button>
                 </li>
                 <li>
                   <button onClick={() => scrollToSection("about")}>About Us</button>
                 </li>
                 <li>
-                  <button onClick={() => scrollToSection("tokenomics")}>Tokenomics</button>
+                  <button onClick={() => scrollToSection("features")}>Tokenomics</button>
                 </li>
                 <li>
                   <button onClick={() => scrollToSection("roadmap")}>Roadmap</button>
                 </li>
                 <li>
-                  <button onClick={() => scrollToSection("contact")}>Contact Us</button>
+                  <button onClick={() => scrollToSection("footer")}>Contact Us</button>
                 </li>
               </ul>
             </div>
