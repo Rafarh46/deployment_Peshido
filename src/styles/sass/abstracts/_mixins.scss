@@ -340,16 +340,17 @@
 }
 
 button {
-   color: #fff;
-  background-color: #252525;
-   padding: .25em .75em;
+  color: #fff;
+  background-color: transparent; /* Fondo transparente */
+  border: none; /* Eliminar borde */
+  padding: .25em .75em;
+}
 
-    @include hover {
-     // ---Instead of &:hover use @include hover
-     color: #000;
-     background-color: #fff;
-   }
- }
+button:hover {
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.5); /* Color de fondo con transparencia */
+}
+
 
 //*=====================****===================== 
 

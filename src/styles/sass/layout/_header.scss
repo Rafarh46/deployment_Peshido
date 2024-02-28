@@ -120,9 +120,9 @@
 
 .header-wrapper {
   @extend %d-flex,
-  %justify-between,
-  %align-i-center,
-  %py-15;
+  justify-content:between,
+  align-items:center,
+  ;
 
 
   @include breakpoint(sm) {
