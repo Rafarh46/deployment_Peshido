@@ -26,7 +26,7 @@ export default function Document() {
         />
         <meta
           name="description"
-          content="Welcome to Peshido, where memes meet cryptocurrency! Join us in the ultimate fusion of meme culture and crypto innovation. Explore our vibrant community, discover exclusive tokenomics, and be part of the meme revolution in the world of cryptocurrency. Embrace the power of Peshido and become a part of something legendary"
+          content="Discover Peshido, the ultimate fusion of memes and cryptocurrency. Join our vibrant community and explore exclusive tokenomics. Be part of the meme revolution with Peshido!"
         />
 
         <meta
