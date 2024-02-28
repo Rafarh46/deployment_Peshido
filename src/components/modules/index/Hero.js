@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <>
     <FsLightbox toggler={toggler} sources={["https://youtu.be/MHhIzIgFgJo"]} />
-    <section className="banner banner--style1">
+    <section className="banner banner--style1" id="hero">
       <div className="banner__bg">
         <div className="banner__bg-element">
         <Image width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}

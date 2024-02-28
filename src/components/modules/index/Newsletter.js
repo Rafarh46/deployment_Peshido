@@ -1,7 +1,7 @@
 import React from "react";
 const Newsletter = () => {
   return (
-    <section className="cta padding-top padding-bottom bg-color">
+    <section className="cta padding-top padding-bottom bg-color" id="contact">
       <div className="container">
         <div className="cta__wrapper">
           <div className="cta__newsletter justify-content-center">

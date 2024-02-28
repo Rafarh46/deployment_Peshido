@@ -3,7 +3,7 @@ import Link from "next/link";
 import CountUp from "react-countup";
 function About() {
   return (
-    <section className="about about--style1 ">
+    <section className="about about--style1 " id="about">
       <div className="container">
         <div className="about__wrapper">
           <div className="row gx-5  gy-4 gy-sm-0  align-items-center">

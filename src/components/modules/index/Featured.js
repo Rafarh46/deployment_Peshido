@@ -34,7 +34,7 @@ const featureData = [
 ];
 function Featured() {
   return (
-    <section className="feature feature--style1 padding-bottom padding-top bg-color">
+    <section className="feature feature--style1 padding-bottom padding-top bg-color" id="features">
       <div className="container">
         <div className="feature__wrapper">
           <div className="row g-5 align-items-center justify-content-between">

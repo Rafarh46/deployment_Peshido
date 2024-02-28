@@ -216,7 +216,7 @@ useEffect(() => {
                   <button onClick={() => scrollToSection("roadmap")}>Roadmap</button>
                 </li>
                 <li>
-                  <button onClick={() => scrollToSection("footer")}>Contact Us</button>
+                  <button onClick={() => scrollToSection("contact")}>Contact Us</button>
                 </li>
               </ul>
             </div>
