@@ -440,9 +440,8 @@ useEffect(() => {
                     </li>
 
                     <li className="menu-item-has-children">
-                      <Link to="Roadmap" smooth={true} duration={500}>
-                        Roadmap
-                      </Link>
+                    <Link href="contact">Contact Us</Link>
+
                     </li>
                     <li>
                       <Link href="contact">Contact Us</Link>
