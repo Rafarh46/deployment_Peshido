@@ -440,7 +440,9 @@ useEffect(() => {
                     </li>
 
                     <li className="menu-item-has-children">
-                    <Link href="index/Roadmap">Roadmap</Link>
+                    <Link onClick={() => this.scrollToSection('Roadmap')}>
+                      Roadmap
+                    </Link>
 
                     </li>
                     <li>
