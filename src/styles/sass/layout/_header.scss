@@ -120,9 +120,9 @@
 
 .header-wrapper {
   @extend %d-flex,
-  justify-content:between,
-  align-items:center,
-  ;
+  %justify-between,
+  %align-i-center,
+  %py-15;
 
 
   @include breakpoint(sm) {
@@ -157,27 +157,8 @@
   .menu-area {
     @extend %d-flex;
     @extend %align-i-center;
-
-    .header-btn {
-      @include breakpoint(max-md) {
-        display: none;
-      }
-
-      @extend %d-flex;
-      @extend %align-i-center;
-      column-gap: 20px;
-
-      .switch-btn {
-        max-width: 30px;
-        cursor: pointer;
-      }
-
-      // .dark-btn {
-      //   max-width: 30px;
-      //   cursor: pointer;
-      // }
-
-    }
+    flex-grow: 1; // Permite que el área del menú crezca y ocupe todo el espacio disponible
+    justify-content: center; // Centra horizontalmente los elementos del menú
   }
 
 
@@ -188,244 +169,14 @@
 }
 
 .menu {
-  @extend %d-flex,
-  %mb-0;
-  column-gap: 10px;
-
-  >li {
-    >a {
-      @include font-size(16px);
-      padding: 15px 22px;
-      text-transform: capitalize;
-      font-family: $text-font;
-      color: $title-color;
-      font-weight: 500;
-
-      // light dark bedge
-      span {
-        @include font-size(12px);
-        padding: 1px 5px;
-        color: $bg-white;
-        border-radius: 4px;
-
-        &.style1 {
-          background-color: $brand-color;
-        }
-
-        &.style2 {
-          background-color: $thm-form-focus-light;
-        }
-      }
-
-      i {
-        margin-right: 5px;
-      }
-
-      &:after {
-        right: 11px;
-      }
-
-      &::before {
-        right: 15px;
-      }
-    }
-  }
-
-  &--style1 {
-    li {
-      a {
-        color: $title-color;
-      }
-    }
-  }
-
-  &--style2 {
-    li {
-      a {
-        color: $bg-white;
-      }
-    }
-  }
-
-
-
-  @include breakpoint(lg) {
-    li {
-      position: relative;
-
-      .submenu {
-        @include add-prefix(transition, $transition);
-        @include add-prefix(transform, translateY(35px));
-        position: absolute;
-        top: 100%;
-        left: 0;
-        z-index: 9;
-        background: $wh-color;
-        width: 220px;
-        padding: 0;
-        opacity: 0;
-        visibility: hidden;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.18);
-        border-radius: 0.4rem;
-
-        li {
-          padding: 0;
-
-          a {
-            @include font-size(16px);
-            padding: 10px 20px;
-            text-transform: capitalize;
-            font-family: $text-font;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            font-weight: 400;
-            color: $title-color;
-            border-bottom: 1px solid rgba($wh-color, $alpha: 0.05);
-            border-radius: 0.3rem;
-            transition: $transition;
-
-            span {
-              @include font-size(12px);
-              padding: 1px 5px;
-              color: $bg-white;
-              border-radius: 4px;
-
-              &.style1 {
-                background-color: $brand-color;
-                color: $thm-title-color;
-              }
-
-              &.style2 {
-                background-color: $thm-black-color;
-              }
-            }
-
-            &:hover,
-            &.active {
-              background: $wh-color;
-              padding-left: 22px;
-              // color: $black-color;
-              color: $brand-color;
-
-              &:after,
-              &:before {
-                background: $wh-color;
-              }
-            }
-          }
-
-          &:last-child {
-            a {
-              border-bottom: none;
-            }
-          }
-
-          .submenu {
-            left: 100%;
-            top: 0;
-          }
-        }
-      }
-
-      &:hover {
-        >.submenu {
-          -webkit-transform: translateY(15px);
-          -ms-transform: translateY(15px);
-          transform: translateY(15px);
-          opacity: 1;
-          visibility: visible;
-        }
-      }
-    }
-
-    @include breakpoint(max-xl) {
-      li {
-        a {
-          padding: 10px 16px;
-        }
-      }
-    }
-  }
-
-  @include breakpoint(max-lg) {
-    width: 100%;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    overflow: auto;
-    max-height: 400px;
-    -webkit-transition: all ease 0.3s;
-    -moz-transition: all ease 0.3s;
-    transition: all ease 0.3s;
-    -webkit-transform: scaleY(0);
-    -ms-transform: scaleY(0);
-    transform: scaleY(0);
-    transform-origin: top;
-    z-index: 999;
-    //glassmorphism
-    background: rgba($wh-color, $alpha: 0.99);
-    -webkit-backdrop-filter: blur(20px);
-
-    li {
-      width: 100%;
-      padding: 0;
-
-      a {
-        display: block;
-        padding: 10px 25px;
-        font-size: 15px;
-        text-transform: capitalize;
-        // border-top: 1px solid #f753250f;
-        border-top: 1px solid $border-color-8;
-        // border-top: 1px solid rgba(189, 189, 189, 0.2); light
-        color: $title-color;
-
-        &:hover {
-          background: rgba($wh-color, $alpha: 0.6);
-        }
-
-        span {
-          @include font-size(12px);
-          padding: 1px 5px;
-          color: $bg-white;
-          border-radius: 4px;
-
-          &.style1 {
-            background-color: $brand-color;
-          }
-
-          &.style2 {
-            background-color: $thm-form-focus-light;
-          }
-        }
-      }
-
-      .submenu {
-        padding-inline-start: 20px;
-        display: none;
-
-        li {
-          width: 100%;
-
-          a {
-            font-family: $title-font;
-            display: flex;
-            justify-content: space-between;
-            font-weight: 400;
-          }
-        }
-      }
-    }
-
-    &.active {
-      -webkit-transform: scaleY(1);
-      -ms-transform: scaleY(1);
-      transform: scaleY(1);
-      // box-shadow: 0 5px 10px -3px rgba($black-color, $alpha: 0.8);
-      box-shadow: 0 5px 10px -3px rgba(0, 0, 0, 0.1);
-      background-color: $wh-color;
-    }
+  @extend %d-flex;
+  @extend %mb-0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+  > li {
+    margin-right: 20px; // Ajusta el espacio entre cada elemento del menú
   }
 }
 
