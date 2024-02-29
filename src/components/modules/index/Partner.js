@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Autoplay, Navigation, Pagination } from "swiper";
 SwiperCore.use([Autoplay, Navigation, Pagination]);
 const partnerData = [
-  {/*
+  {
     img: "/images/partner/light/dext.png",
     alt: "partner logo",
   },
@@ -14,7 +14,7 @@ const partnerData = [
   {
     img: "/images/partner/light/pink.png",
     alt: "partner logo",
-  },*/}
+  },
   
   
 ];
