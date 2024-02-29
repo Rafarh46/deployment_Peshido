@@ -192,7 +192,7 @@ useEffect(() => {
     </div>
           
           {/* <!-- ===============>> light&dark switch start here <<================= --> */}
-          <header className={`header-section ${headerClass ? headerClass : "bg-color-3"}`}>
+          <header className={ `header-section ${headerClass ? headerClass:'bg-color-3'}`} onScroll={isSticky}>
       <div className="header-bottom">
         <div className="container">
           <div className="header-wrapper">
@@ -220,16 +220,28 @@ useEffect(() => {
                 </li>
               </ul>
             </div>
-            {/* <!-- toggle icons --> */}
-            <div className={menu?"header-bar d-lg-none header-bar--style1 active": "header-bar d-lg-none header-bar--style1" } onClick={()=>toggleMenu()}>
+            
+            <div className="header-action">
+                <div className="menu-area">
+                  <div className="header-btn">
+                    <Link href="signup" className="trk-btn trk-btn--border trk-btn--primary">
+                      <span>Join Now</span>
+                    </Link>
+                  </div>
+
+                  {/* <!-- toggle icons --> */}
+                  <div className={menu?"header-bar d-lg-none header-bar--style1 active": "header-bar d-lg-none header-bar--style1" } onClick={()=>toggleMenu()}>
                     <span></span>
                     <span></span>
                     <span></span>
                   </div>
                 </div>
+                  </div>
+
+            </div>
+          </div>
         </div>
-      </div>
-    </header>
+      </header>
     </>
   );
 }
