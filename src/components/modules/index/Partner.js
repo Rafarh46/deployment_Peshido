@@ -4,65 +4,18 @@ import SwiperCore, { Autoplay, Navigation, Pagination } from "swiper";
 SwiperCore.use([Autoplay, Navigation, Pagination]);
 const partnerData = [
   {
-    img: "/images/partner/light/1.png",
+    img: "/images/partner/light/dext.png",
     alt: "partner logo",
   },
   {
-    img: "/images/partner/light/2.png",
+    img: "/images/partner/light/pancake.png",
     alt: "partner logo",
   },
   {
-    img: "/images/partner/light/3.png",
+    img: "/images/partner/light/pink.png",
     alt: "partner logo",
   },
-  {
-    img: "/images/partner/light/4.png",
-    alt: "partner logo",
-  },
-  {
-    img: "/images/partner/light/5.png",
-    alt: "partner logo",
-  },
-  {
-    img: "/images/partner/light/1.png",
-    alt: "partner logo",
-  },
-  {
-    img: "/images/partner/light/2.png",
-    alt: "partner logo",
-  },
-  {
-    img: "/images/partner/light/3.png",
-    alt: "partner logo",
-  },
-  {
-    img: "/images/partner/light/4.png",
-    alt: "partner logo",
-  },
-  {
-    img: "/images/partner/light/5.png",
-    alt: "partner logo",
-  },
-  {
-    img: "/images/partner/light/1.png",
-    alt: "partner logo",
-  },
-  {
-    img: "/images/partner/light/2.png",
-    alt: "partner logo",
-  },
-  {
-    img: "/images/partner/light/3.png",
-    alt: "partner logo",
-  },
-  {
-    img: "/images/partner/light/4.png",
-    alt: "partner logo",
-  },
-  {
-    img: "/images/partner/light/5.png",
-    alt: "partner logo",
-  },
+  
   
 ];
 const Partner = () => {
