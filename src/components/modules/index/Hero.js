@@ -102,7 +102,7 @@ const Hero = () => {
                   <ul className="social">
                     <li className="social__item">
                       <Link
-                        scroll={false} href=""
+                        scroll={false} href="https://www.facebook.com/profile.php?id=61557116752167"
                         className="social__link social__link--style1 active"
                       >
                         <i className="fab fa-facebook-f"></i>
@@ -110,31 +110,16 @@ const Hero = () => {
                     </li>
                     <li className="social__item">
                       <Link
-                        scroll={false} href=""
+                        scroll={false} href="https://t.me/peshido"
                         className="social__link social__link--style1"
                       >
-                        <i className="fab fa-linkedin-in"></i>
+                        <i className="fab fa-telegram"></i>
                       </Link>
                     </li>
+                    
                     <li className="social__item">
                       <Link
-                        scroll={false} href=""
-                        className="social__link social__link--style1"
-                      >
-                        <i className="fab fa-instagram"></i>
-                      </Link>
-                    </li>
-                    <li className="social__item">
-                      <Link
-                        scroll={false} href=""
-                        className="social__link social__link--style1"
-                      >
-                        <i className="fab fa-youtube"></i>
-                      </Link>
-                    </li>
-                    <li className="social__item">
-                      <Link
-                        href="signin"
+                        href="https://twitter.com/PeshidoToken"
                         className="social__link social__link--style1"
                       >
                         <i className="fab fa-twitter"></i>
