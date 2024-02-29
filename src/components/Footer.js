@@ -2,6 +2,15 @@ import Link from "next/link";
 import Image from 'next/image';
 import ScrollToTop from "react-scroll-to-top";
 
+const scrollToSection = (sectionId) => {
+  const section = document.getElementById(sectionId);
+  if (section) {
+    window.scrollTo({
+      top: section.offsetTop,
+      behavior: "smooth",
+    });
+  }
+}
 
 function Footer() {
   return (
@@ -57,10 +66,11 @@ function Footer() {
                       <ul className="footer__linklist">
                         <li className="footer__linklist-item"> <button onClick={() => scrollToSection("about")}>About Us</button>
                         </li>
-                        <li className="footer__linklist-item"> <Link href="team">Teams</Link>
+                        <li className="footer__linklist-item"> <button onClick={() => scrollToSection("features")}>Tokenomics</button>
                         </li>
-                        <li className="footer__linklist-item"> <Link href="services">Services</Link> </li>
-                        <li className="footer__linklist-item"> <Link scroll={false} href="">Features</Link>
+                        <li className="footer__linklist-item"> <button onClick={() => scrollToSection("roadmap")}>Roadmap</button>
+                        </li>
+                        <li className="footer__linklist-item"> <button onClick={() => scrollToSection("contact")}>Contact Us</button>
                         </li>
                       </ul>
                     </div>
@@ -85,25 +95,7 @@ function Footer() {
                   </div>
 
                 </div>
-                <div className="col-md-2 col-sm-4">
-                  <div className="footer__links">
-                    <div className="footer__links-tittle">
-                      <h6>Company</h6>
-                    </div>
-                    <div className="footer__links-content">
-                      <ul className="footer__linklist">
-                        <li className="footer__linklist-item"> <Link scroll={false} href="">Careers</Link>
-                        </li>
-                        <li className="footer__linklist-item"> <Link scroll={false} href="">Updates</Link>
-                        </li>
-                        <li className="footer__linklist-item"> <Link scroll={false} href="">Job</Link> </li>
-                        <li className="footer__linklist-item"> <Link scroll={false} href="">Announce</Link>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-
-                </div>
+                
               </div>
             </div>
             <div className="footer__bottom">
