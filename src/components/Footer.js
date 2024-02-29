@@ -55,7 +55,7 @@ function Footer() {
                     </div>
                     <div className="footer__links-content">
                       <ul className="footer__linklist">
-                        <li className="footer__linklist-item"> <Link href="about">About Us</Link>
+                        <li className="footer__linklist-item"> <button onClick={() => scrollToSection("about")}>About Us</button>
                         </li>
                         <li className="footer__linklist-item"> <Link href="team">Teams</Link>
                         </li>
