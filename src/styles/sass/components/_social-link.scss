@@ -4,10 +4,10 @@
     @extend %list-none;
     @extend %ps-0;
     @extend %mb-0;
-    gap: 10px;
+    gap: 60px;
 
     @include breakpoint(md) {
-        gap: 15px;
+        gap: 60px;
     }
 
     &--style2 {
@@ -37,23 +37,23 @@
             background-color: transparent;
             border: 1px solid $social-border-color-2;
             @include box(80px);
-            border-radius: 200px;
+            border-radius: 150px;
             transition: $transition;
 
             svg,
             i {
-                @include font-size(16px);
+                @include font-size(80px);
                 color: $title-color;
             }
 
 
             @include breakpoint(lg) {
-                height: 100px;
-                width: 100px;
+                height: 40px;
+                width: 40px;
 
                 i,
                 svg {
-                    @include font-size(18px)
+                    @include font-size(80px)
                 }
             }
         }
