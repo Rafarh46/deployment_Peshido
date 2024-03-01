@@ -111,7 +111,7 @@ const Hero = () => {
                     <li className="social__item">
                       <Link
                         scroll={false} href="https://t.me/peshido"
-                        className="social__link social__link--style1"
+                        className="social__link social__link--style1 "
                       >
                         <i className="fab fa-telegram"></i>
                       </Link>
@@ -120,7 +120,7 @@ const Hero = () => {
                     <li className="social__item">
                       <Link
                         href="https://twitter.com/PeshidoToken"
-                        className="social__link social__link--style1"
+                        className="social__link social__link--style1 "
                       >
                         <i className="fab fa-twitter"></i>
                       </Link>
@@ -129,7 +129,7 @@ const Hero = () => {
                       <Link
                         scroll={false}
                         href=""
-                        className="social__link social__link--style1 active"
+                        className="social__link social__link--style1"
                       >
                         <img src="\images\header\dext.png" alt="Dextools" />
                       </Link>
