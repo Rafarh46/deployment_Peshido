@@ -36,7 +36,7 @@
             @include add-prefix(transition, $transition);
             background-color: transparent;
             border: 1px solid $social-border-color-2;
-            @include box(34px);
+            @include box(80px);
             border-radius: 99px;
             transition: $transition;
 
