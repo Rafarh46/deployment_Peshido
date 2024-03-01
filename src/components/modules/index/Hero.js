@@ -125,6 +125,15 @@ const Hero = () => {
                         <i className="fab fa-twitter"></i>
                       </Link>
                     </li>
+                    <li className="social__item">
+                      <Link
+                        scroll={false}
+                        href=""
+                        className="social__link social__link--style1 active"
+                      >
+                        <img src="\images\header\dext.png" alt="Dextools" />
+                      </Link>
+                    </li>
                   </ul>
                 </div>
               </div>
