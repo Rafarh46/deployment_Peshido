@@ -205,8 +205,9 @@
       span {
         @include font-size(12px);
         padding: 1px 5px;
-        color: $bg-white;
         border-radius: 4px;
+        color: $thm-title-color;
+        
 
         &.style1 {
           background-color: $brand-color;
