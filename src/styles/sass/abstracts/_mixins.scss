@@ -340,14 +340,14 @@
 }
 
 button {
-  color: #fff;
+  color: $thm-title-color;;
   background-color: transparent; /* Fondo transparente */
   border: none; /* Eliminar borde */
   padding: .25em .75em;
 }
 
 button:hover {
-  color: #000;
+  color: $thm-title-color;
   background-color: rgba(255, 255, 255, 0.5); /* Color de fondo con transparencia */
 }
 
