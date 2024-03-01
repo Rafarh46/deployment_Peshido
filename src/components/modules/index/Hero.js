@@ -96,7 +96,7 @@ const Hero = () => {
                   
                   
                 </div>
-
+                
                 <div className="banner__content-social">
                   <p>Follow Us</p>
                   <ul className="social">
@@ -111,7 +111,7 @@ const Hero = () => {
                     <li className="social__item">
                       <Link
                         scroll={false} href="https://t.me/peshido"
-                        className="social__link social__link--style1"
+                        className="social__link social__link--style2"
                       >
                         <i className="fab fa-telegram"></i>
                       </Link>
@@ -120,7 +120,7 @@ const Hero = () => {
                     <li className="social__item">
                       <Link
                         href="https://twitter.com/PeshidoToken"
-                        className="social__link social__link--style1"
+                        className="social__link social__link--style3"
                       >
                         <i className="fab fa-twitter"></i>
                       </Link>
